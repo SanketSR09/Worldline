@@ -1,1 +1,5 @@
-system.out.println("Hello Jenkins from JAVA!")
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
