@@ -1,0 +1,1 @@
+system.out.println("Hello Jenkins from JAVA!")
