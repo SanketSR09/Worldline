@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'my_pc'
+            label 'Sanket_pc'
             }
       }
     triggers {
@@ -16,7 +16,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing.."
-                sh '''
+                bat '''
                 python hello.py
                 '''
             }
