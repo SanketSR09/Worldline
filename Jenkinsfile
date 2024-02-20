@@ -1,12 +1,12 @@
 pipeline {
     agent { 
-        environment{
-            PATH = "C://WINDOWS//System32"
-        }
         node {
             label 'Sanket_pc'
             }
       }
+     environment{
+            PATH = "C://WINDOWS//System32"
+        }
     triggers {
         pollSCM '* * * * *'
     }
