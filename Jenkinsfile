@@ -1,5 +1,8 @@
 pipeline {
     agent { 
+        environment{
+            PATH = "C://WINDOWS//System32"
+        }
         node {
             label 'Sanket_pc'
             }
