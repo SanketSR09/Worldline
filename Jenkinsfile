@@ -23,6 +23,12 @@ pipeline {
                  C://Users//HP//AppData//Local//Programs//Python//Python312//python.exe  hello.py
                 '''
             }
+            steps{
+                echo "Testing"
+                bat '''
+                C://Program Files//Java//jdk-21//bin//java.exe hello.java
+                '''
+            }
         }
         stage('Deliver') {
             steps {
