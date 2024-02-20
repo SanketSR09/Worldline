@@ -20,7 +20,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 bat '''
-                 C:\Users\HP\AppData\Local\Programs\Python\Python312  hello.py
+                 C://Users//HP//AppData//Local//Programs//Python//Python312  hello.py
                 '''
             }
         }
