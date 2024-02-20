@@ -23,7 +23,7 @@ pipeline {
                  C://Users//HP//AppData//Local//Programs//Python//Python312//python.exe  hello.py
                 '''
                 bat '''
-                C://Program Files//Java//jdk-21//bin//java.exe hello.java
+                C://ProgramFiles//Java//jdk-21//bin//java.exe hello.java
                 '''
             }
         }
