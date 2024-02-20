@@ -19,11 +19,11 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing.."
+                // bat '''
+                //  C://Users//HP//AppData//Local//Programs//Python//Python312//python.exe  hello.py
+                // '''
                 bat '''
-                 C://Users//HP//AppData//Local//Programs//Python//Python312//python.exe  hello.py
-                '''
-                bat '''
-                C://ProgramFiles//Java//jdk-21//bin//java.exe hello.java
+                C://Program Files//Java//jdk-21//bin//java.exe hello.java
                 '''
             }
         }
